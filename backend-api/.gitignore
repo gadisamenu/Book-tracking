@@ -1,0 +1,46 @@
+# Ignore virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore generated files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignore build and distribution directories
+build/
+dist/
+eggs/
+
+# Ignore documentation build files
+docs/_build/
+
+# Ignore files created by databases
+db.sqlite3
+.db
+
+# Ignore any local configuration files
+.envrc
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore test-related files
+.pytest/
+
+# Ignore specific patterns
+**/__pycache__
+**/fixtures/
+**/migrations/
+**/.mypy_cache/
